@@ -1,1 +1,1 @@
-# cursi-ifjs
+# curso-ifjs
