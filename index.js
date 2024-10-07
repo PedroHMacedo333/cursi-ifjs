@@ -1,16 +1,8 @@
-const numero = 8;
 
-let multiplicador = 1;
+// npm install readline
+const readline = require("readline-sync");
 
-console.log(numero, "x", multiplicador, "=", numero * multiplicador++);
-console.log(numero, "x", multiplicador, "=", numero * multiplicador++);
-console.log(numero, "x", multiplicador, "=", numero * multiplicador++);
-console.log(numero, "x", multiplicador, "=", numero * multiplicador++);
-console.log(numero, "x", multiplicador, "=", numero * multiplicador++);
-console.log(numero, "x", multiplicador, "=", numero * multiplicador++);
-console.log(numero, "x", multiplicador, "=", numero * multiplicador++);
-console.log(numero, "x", multiplicador, "=", numero * multiplicador++);
-console.log(numero, "x", multiplicador, "=", numero * multiplicador++);
-console.log(numero, "x", multiplicador, "=", numero * multiplicador++);
+const nome = readline.question("Qual o seu nome? ");
+const idade = readline.questionInt("Qual a sua idade? ");
 
-//tabuada S2
+console.log(`O nome informado foi: ${nome} e a idade informada foi de ${idade} anos.`);
