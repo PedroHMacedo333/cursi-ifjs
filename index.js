@@ -1,11 +1,10 @@
-//question -> string "texto"
-//float -> (EX: 1.80) numeros decimais
-// // npm install readline-sync
+/** oieee :3 */
 const readline = require("readline-sync");
 
-const nome = readline.question("Qual o seu nome? ");
-const idade = readline.questionInt("Qual a sua idade? ");
-
-readline.que
-
-console.log(`O nome informado foi: ${nome} e a idade informada foi de ${idade} anos.`);
+const sexo = readline.question(" qual o seu sexo? M - Masculino ou F - Feminino   R) ");
+// sexo.toUpperCase() - Para letras maiúsculas 
+if (sexo.toUpperCase() == "m") {
+    console.log("Pode entra no banheiro masculino");  
+} else {
+    console.log("Não pode entra no banheiro masculino");
+}
